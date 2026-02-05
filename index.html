@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LLM Workflow Runner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>LLM Workflow Runner</h1>
+    <p class="subtitle">3-step chained execution using Unbound API</p>
+
+    <div class="step" data-step="1"></div>
+    <div class="step" data-step="2"></div>
+    <div class="step" data-step="3"></div>
+
+    <button id="run">Run Workflow</button>
+    <button id="history">Show History</button>
+
+    <h2>Result</h2>
+    <pre id="output"></pre>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
